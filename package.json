@@ -1,0 +1,22 @@
+{
+  "name": "movie-review-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node nodejs-express-sequelize-postgresql/server.js",
+    "build": "cd react-crud && npm install && npm run build",
+    "heroku-postbuild-x": "npm run build && cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-dranoel/movie-review-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "path": "^0.12.7"
+  }
+}
